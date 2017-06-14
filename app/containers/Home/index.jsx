@@ -11,7 +11,9 @@ class Home extends React.Component {
         return (
             <div>
                 <HomeHeader/>
-                
+                <div className="mui-content">
+                  <h1>!!!!</h1>
+                </div>
             </div>
         )
     }
