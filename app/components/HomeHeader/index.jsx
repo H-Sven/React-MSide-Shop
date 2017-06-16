@@ -7,6 +7,7 @@ class HomeHeader extends React.Component {
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
   }
   render() {
+
     return (
           <div className="mui-bar mui-bar-nav">
             <span className="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></span>
