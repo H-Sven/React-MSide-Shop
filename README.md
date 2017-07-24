@@ -1,4 +1,3 @@
-# Mside
-## 移动端网站开发
+# react-simple-o2o-demo
 
 代码尚在开发中

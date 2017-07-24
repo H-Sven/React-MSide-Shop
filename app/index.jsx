@@ -3,13 +3,9 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { hashHistory } from 'react-router'
 import configureStore from './store/configureStore'
-import mui from './static/js/mui.js'
-import './static/css/mui.min.css'
-import './static/css/base.css'
-import './static/css/subpage.css'
 
-//在整体中创建mui对象
-window.mui = mui
+import './static/css/common.less'
+
 // 创建 Redux 的 store 对象
 const store = configureStore()
 

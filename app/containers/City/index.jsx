@@ -9,13 +9,12 @@ class City extends React.Component {
     render() {
         return (
             <div>
-                <Header title="选择国家" />
-                <h1>选择国家</h1>
+                <h1>city</h1>
             </div>
         )
     }
 }
 
-// 使用 require.ensure 异步加载，还不支持 ES6 的 export
+// 使用 require.ensure 异步加载，还不支持 ES6 的 export 
 // export default City
 module.exports = City
