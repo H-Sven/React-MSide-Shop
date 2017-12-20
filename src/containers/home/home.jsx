@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeHeader from '../../component/homeheader/homeheader'
+import CateGory from '../../component/category/category'
 import { connect } from 'react-redux'
 
 @connect(
@@ -11,7 +12,7 @@ class Home extends React.Component {
     return(
       <div>
         <HomeHeader cityName={this.props.userinfo.cityName}/>
-        <div>主页</div>
+        <CateGory/>
       </div>
     )
   }

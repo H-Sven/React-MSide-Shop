@@ -2,9 +2,6 @@ import React from 'react';
 import './homeheader.css'
 
 class HomeHeader extends React.PureComponent {
-  constructor(props){
-    super(props)
-  }
   render() {
     return (
       <div id='home-header' className='clear-fix'>
