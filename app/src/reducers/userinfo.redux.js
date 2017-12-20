@@ -1,0 +1,14 @@
+import * as actionType from '../constants/userinfo.redux'
+
+const initialState = {
+
+}
+
+export default function userinfo(state = initialState,action) {
+  switch (action.type) {
+    case actionType.USERINFO_UPDATE:
+      return action.data;
+    default:
+      return state;
+  }
+}

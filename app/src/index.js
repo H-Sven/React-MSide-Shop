@@ -1,8 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import { Provider } from 'react-redux'
+import MainRouter from './router/mainRouter';
+import configStore from './store/configStore'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const store = configStore()
+
+class Root extends React.PureComponent {
+  render(){
+    return(
+      <Provider store={store}>
+        <MainRouter/>
+      </Provider>
+    )
+  }
+}
+
+ReactDOM.render(<Root />, document.getElementById('root'));
