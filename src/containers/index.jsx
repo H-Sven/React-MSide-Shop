@@ -16,7 +16,6 @@ class Index extends React.PureComponent{
     }
   }
   render(){
-    console.log(this.state.initDone);
     return(
       <div>
        {
@@ -40,7 +39,6 @@ class Index extends React.PureComponent{
         this.setState({
             initDone: true
         })
-        console.log(cityName);
   }
 }
 
