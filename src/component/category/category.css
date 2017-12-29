@@ -1,4 +1,41 @@
-li.select{
-  font-weight: 700px;
-  color: rgb(233, 32, 61);
+.index-container {
+  margin-top: 10px;
+}
+
+.index-container ul {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.index-container li {
+  list-style: none;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  background-color: #ccc;
+  margin: 0 3px;
+}
+
+.index-container li.selected {
+  background-color: rgb(233, 32, 61);
+}
+
+.carousel-item ul {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item li {
+  display: block;
+  list-style: none;
+  width: 20%;
+  background-repeat: no-repeat;
+  background-size: 50px auto;
+  background-position: top center;
+  text-align: center;
+  padding-top: 50px;
+  color: #666;
+  font-size: 14px;
 }
