@@ -20,20 +20,6 @@ class CateGory extends React.PureComponent {
       <ReactSwipe  className="carousel" swipeOptions={opt}>
       <div className="carousel-item">
           <ul className="clear-fix">
-              <li className="float-left jingdian">景点</li>
-              <li className="float-left ktv">KTV</li>
-              <li className="float-left gouwu">购物</li>
-              <li className="float-left shenghuofuwu">生活服务</li>
-              <li className="float-left jianshenyundong">健身运动</li>
-              <li className="float-left meifa">美发</li>
-              <li className="float-left qinzi">亲子</li>
-              <li className="float-left xiaochikuaican">小吃快餐</li>
-              <li className="float-left zizhucan">自助餐</li>
-              <li className="float-left jiuba">酒吧</li>
-          </ul>
-      </div>
-      <div className="carousel-item">
-          <ul className="clear-fix">
               <li className="float-left meishi">美食</li>
               <li className="float-left dianying">电影</li>
               <li className="float-left jiudian">酒店</li>
@@ -44,6 +30,20 @@ class CateGory extends React.PureComponent {
               <li className="float-left dujiachuxing">度假出行</li>
               <li className="float-left zuliaoanmo">足疗按摩</li>
               <li className="float-left zhoubianyou">周边游</li>
+          </ul>
+      </div>
+      <div className="carousel-item">
+          <ul className="clear-fix">
+              <li className="float-left jingdian">景点</li>
+              <li className="float-left ktv">KTV</li>
+              <li className="float-left gouwu">购物</li>
+              <li className="float-left shenghuofuwu">生活服务</li>
+              <li className="float-left jianshenyundong">健身运动</li>
+              <li className="float-left meifa">美发</li>
+              <li className="float-left qinzi">亲子</li>
+              <li className="float-left xiaochikuaican">小吃快餐</li>
+              <li className="float-left zizhucan">自助餐</li>
+              <li className="float-left jiuba">酒吧</li>
           </ul>
       </div>
       <div className="carousel-item">

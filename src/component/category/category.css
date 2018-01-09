@@ -18,7 +18,7 @@
   margin: 0 3px;
 }
 
-.index-container li.selected {
+.index-container li.select {
   background-color: rgb(233, 32, 61);
 }
 
@@ -38,4 +38,50 @@
   padding-top: 50px;
   color: #666;
   font-size: 14px;
+}
+
+/* 1 */
+.meishi{
+  background-image: url('../../static/cate_icons/01美食icon_1.png');
+}
+
+.dianying{
+  background-image: url('../../static/cate_icons/01电影icon_2.png');
+}
+
+.jiudian{
+  background-image: url('../../static/cate_icons/01酒店icon_3.png');
+}
+
+.xuixianyule{
+  background-image: url('../../static/cate_icons/01休闲娱乐icon_4.png');
+}
+
+.waimai{
+  background-image: url('../../static/cate_icons/01外卖icon_5.png');
+}
+
+.huoguo{
+  background-image: url('../../static/cate_icons/01火锅icon_6.png');
+}
+
+.liren{
+  background-image: url('../../static/cate_icons/01丽人icon_7.png');
+}
+
+.dujiachuxing{
+  background-image: url('../../static/cate_icons/01度假出行icon_8.png');
+}
+
+.zuliaoanmo{
+  background-image: url('../../static/cate_icons/01足疗按摩icon_9.png');
+}
+
+.zhoubianyou{
+  background-image: url('../../static/cate_icons/01周边游icon_10png.png');
+}
+
+/* 2 */
+.jingdian {
+  background-image: url('../../static/cate_icons/02景点icon_1.png');
 }
